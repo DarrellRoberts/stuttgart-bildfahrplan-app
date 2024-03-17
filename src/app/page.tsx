@@ -4,7 +4,7 @@ import Chart from "@/components/chart/Chart";
 async function getTrainRoute() {
   try {
   const response = await fetch(
-    "/api/trainroutes",{
+    "http://localhost:3000/api/trainroutes",{
     method: "GET", next: {revalidate: 5}
   })
     return response.json();
@@ -16,7 +16,7 @@ async function getTrainRoute() {
 //fetching trips. Would fetch from seperate backend in scaled version.
 async function getTrips() {
   try {
-  const response = await fetch("/api/trips", {
+  const response = await fetch("http://localhost:3000/api/trips", {
     method: "GET", next: {revalidate: 5}
   })
     return response.json();
