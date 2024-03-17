@@ -1,0 +1,64 @@
+.chartCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.headerCon {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.chartTitle {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.chartGraph {
+    width: 1200px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.loaderCon {
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 50%;
+top: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .chartGraph{
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .headerCon {
+        justify-self: flex-start;
+    }
+    .chartTitle {
+        font-size: 1.25rem;
+        margin-bottom: 20rem;
+    }
+    .chartCon {
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+    .chartGraph {
+        transform: rotate(90deg);
+        overflow: hidden;
+    }
+    .loaderCon {
+        transform: translateY(-75%);
+    }
+}
