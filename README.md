@@ -32,6 +32,7 @@ npm install
 ```bash
 npm run dev
 ```
+When running, you should be able to view the application on http://localhost:3000
 
 # Usage
 
