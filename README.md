@@ -37,15 +37,7 @@ When running, you should be able to view the application on http://localhost:300
 # Usage
 
 The app currently has the following features:
-- Choose from the following Stuttgart S-Bahn lines:
-        - S3
-        - S4
-        - S5
-        - S6
-        - S1
-        - S2
-        - S60
-        - S11
+- Choose from the following Stuttgart S-Bahn lines: S3, S4, S5, S6, S1, S2, S60, S11
 - Select or deselect trips from the graph
 - Pinpoint where a specific train is at which time on point-hover
 - Dark mode
