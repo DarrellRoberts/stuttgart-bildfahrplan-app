@@ -50,7 +50,7 @@ The app currently has the following features:
 - Pinpoint where a specific train is at which time on point-hover
 - Dark mode
 
-# Contributing
+# Adding a Trip
 
 The graph code is dynamic so that when a trip is added to either of the S-Bahn lines, provided the data-entry is correct, it will instantly be reflected in the graph.
 
